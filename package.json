@@ -1,0 +1,44 @@
+{
+  "name": "transparent-front",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@wa-dev/cli-react-template-plugin": "2.0.0-beat.8",
+    "@wa-dev/cli-vite-service": "2.0.0-beat.8",
+    "@wa-dev/cli-webpack-service": "2.0.0-beat.8",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "prettier": "^3.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@wa-dev/hooks": "0.0.1-alpha-6",
+    "antd": "^5.11.5",
+    "axios": "^1.6.2",
+    "less": "^4.2.0",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0"
+  },
+  "scripts": {
+    "start:vite": "wa-cli-vite-service start",
+    "build:vite": "wa-cli-vite-service build",
+    "build:webpack": "wa-cli-webpack-service build",
+    "start:webpack": "wa-cli-webpack-service start --history-api-fallback",
+    "format": "prettier --write \"src/**.ts?\" \"src/**/*.tsx\""
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
